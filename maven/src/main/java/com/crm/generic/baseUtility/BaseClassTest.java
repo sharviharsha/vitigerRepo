@@ -44,8 +44,8 @@ public class BaseClassTest
 	public void createConfigBC(String browser) throws Throwable {
 		System.out.println("==Launch the Browser== ");
 		//String BROWSER =fLib.getDataFromPropertiesFile("browser");
-		//browser; 
-		String BROWSER=System.getProperty("browser",browser);
+		String BROWSER=browser; 
+		//String BROWSER=System.getProperty("browser",browser);
 		if (BROWSER.equals("chrome")) {
 			driver = new ChromeDriver();
 		} else if (BROWSER.equals("firefox")) {
