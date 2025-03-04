@@ -12,6 +12,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import com.comcast.crm.generic.databaseutility.DataBaseUtility;
@@ -33,7 +34,7 @@ public class BaseClassTest
 	
 
 	@BeforeSuite(groups = {"smokeTest", "regressionTest"})
-	public void createConfigBs() {
+	public void createConfigBs(@Optional("chrome") String BROWSER) {
 		System.out.println("======connect DB , Report config=======");
 		dbLib.getDbconnection();
 		
