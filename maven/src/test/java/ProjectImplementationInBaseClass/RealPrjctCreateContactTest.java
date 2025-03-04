@@ -9,7 +9,7 @@ import com.comcast.crm.objectrepositoryutility.ContactPage;
 import com.comcast.crm.objectrepositoryutility.CreatingNewContactPage;
 import com.comcast.crm.objectrepositoryutility.HomePage;
 import com.crm.generic.baseUtility.BaseClassTest;
-@Listeners(com.crm.comcast.listenerUtility.LisImpClass.class)
+//@Listeners(com.crm.comcast.listenerUtility.LisImpClass.class)
 public class RealPrjctCreateContactTest extends BaseClassTest {
 	@Test(groups = "smokeTest")
 
