@@ -34,7 +34,7 @@ public class BaseClassTest
 	
 
 	@BeforeSuite(groups = {"smokeTest", "regressionTest"})
-	public void createConfigBs(@Optional("chrome") String BROWSER) {
+	public void createConfigBs() {
 		System.out.println("======connect DB , Report config=======");
 		dbLib.getDbconnection();
 		
@@ -42,10 +42,10 @@ public class BaseClassTest
 	}
     @Parameters("BROWSER")
 	@BeforeClass(groups = {"smokeTest", "regressionTest"})
-	public void createConfigBC(String browser) throws Throwable {
+	public void createConfigBC(@Optional("chrome") String BROWSER) throws Throwable {
 		System.out.println("==Launch the Browser== ");
 		//String BROWSER =fLib.getDataFromPropertiesFile("browser");
-		String BROWSER=browser; 
+		//String BROWSER=browser; 
 		//String BROWSER=System.getProperty("browser",browser);
 		if (BROWSER.equals("chrome")) {
 			driver = new ChromeDriver();
