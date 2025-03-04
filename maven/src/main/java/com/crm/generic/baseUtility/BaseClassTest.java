@@ -43,7 +43,7 @@ public class BaseClassTest
 	}
     @Parameters("BROWSER")
 	@BeforeClass(groups = {"smokeTest", "regressionTest"})
-	public void createConfigBC(@Optional("chrome") String BROWSER) throws Throwable {
+	public void createConfigBC(String BROWSER) throws Throwable {
 		System.out.println("==Launch the Browser== ");
 		//String BROWSER =fLib.getDataFromPropertiesFile("browser");
 		//String BROWSER=browser; 
