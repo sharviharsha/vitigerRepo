@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.opera.OperaDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -53,7 +54,10 @@ public class BaseClassTest
 			driver = new FirefoxDriver();
 		} else if (BROWSER.equals("edge")) {
 			driver = new EdgeDriver();
-		} else {
+		} 
+		else if (BROWSER.equals("opera")) {
+			driver = new OperaDriver();
+		}else {
 			driver = new ChromeDriver();
 		}
 		sdriver=driver;

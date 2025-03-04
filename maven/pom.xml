@@ -60,6 +60,13 @@
 			<artifactId>extentreports</artifactId>
 			<version>5.0.9</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-opera-driver -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-opera-driver</artifactId>
+    <version>4.4.0</version>
+</dependency>
+
         
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 <dependency>
