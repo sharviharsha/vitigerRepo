@@ -6,8 +6,8 @@
 		<listener class-name="com.crm.comcast.listenerUtility.LisImpClass"></listener>
 	</listeners>
 	
-  <test name="TestRunner-Opera">
-	  <parameter name="BROWSER" value="opera"></parameter>
+  <test name="TestRunner-Edge">
+	  <parameter name="BROWSER" value="edge"></parameter>
     <classes>
       <class name="ProjectImplementationInBaseClass.RealPrjctCreateOrgTest"/>
       <class name="ProjectImplementationInBaseClass.RealPrjctCreateContactTest"/>
