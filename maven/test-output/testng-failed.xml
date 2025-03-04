@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="ProjectImplementationInBaseClass.RealPrjctCreateContactTest">
+        <methods>
+          <include name="createConfigBs"/>
+          <include name="createConfigBC"/>
+          <include name="createContact"/>
+          <include name="createConfigBM"/>
+          <include name="createContactSupportDate"/>
+          <include name="createConfigAM"/>
+          <include name="createConfigAS"/>
+          <include name="createConfigAC"/>
+        </methods>
+      </class> <!-- ProjectImplementationInBaseClass.RealPrjctCreateContactTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
