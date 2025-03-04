@@ -7,7 +7,7 @@
 	</listeners>
 	
   <test name="TestRunner-Edge">
-	  <parameter name="BROWSER" value="edge"></parameter>
+	  <parameter name="BROWSER" value="firefox"></parameter>
     <classes>
       <class name="ProjectImplementationInBaseClass.RealPrjctCreateOrgTest"/>
       <class name="ProjectImplementationInBaseClass.RealPrjctCreateContactTest"/>

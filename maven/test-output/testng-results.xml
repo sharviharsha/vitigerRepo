@@ -1,72 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="4" total="14" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-04T17:32:08 IST" name="Default suite" finished-at="2025-03-04T17:32:58 IST" duration-ms="50812">
+  <suite started-at="2025-03-04T18:21:40 IST" name="Suite" finished-at="2025-03-04T18:24:11 IST" duration-ms="151166">
     <groups>
       <group name="regressionTest">
-        <method signature="RealPrjctCreateOrgTest.createOrgWithIndustries()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@5656be13]" name="createOrgWithIndustries" class="ProjectImplementationInBaseClass.RealPrjctCreateOrgTest"/>
-        <method signature="RealPrjctCreateOrgTest.createOrgWithPhoneNum()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@5656be13]" name="createOrgWithPhoneNum" class="ProjectImplementationInBaseClass.RealPrjctCreateOrgTest"/>
+        <method signature="RealPrjctCreateContactTest.createContactSupportDate()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateContactTest@639c2c1d]" name="createContactSupportDate" class="ProjectImplementationInBaseClass.RealPrjctCreateContactTest"/>
+        <method signature="RealPrjctCreateOrgTest.createOrgWithIndustries()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@65fb9ffc]" name="createOrgWithIndustries" class="ProjectImplementationInBaseClass.RealPrjctCreateOrgTest"/>
+        <method signature="RealPrjctCreateOrgTest.createOrgWithPhoneNum()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@65fb9ffc]" name="createOrgWithPhoneNum" class="ProjectImplementationInBaseClass.RealPrjctCreateOrgTest"/>
+        <method signature="RealPrjctCreateContactTest.createContactSupportDate()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateContactTest@217ed35e]" name="createContactSupportDate" class="ProjectImplementationInBaseClass.RealPrjctCreateContactTest"/>
+        <method signature="RealPrjctCreateOrgTest.createOrgWithIndustries()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@682b2fa]" name="createOrgWithIndustries" class="ProjectImplementationInBaseClass.RealPrjctCreateOrgTest"/>
+        <method signature="RealPrjctCreateOrgTest.createOrgWithPhoneNum()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@682b2fa]" name="createOrgWithPhoneNum" class="ProjectImplementationInBaseClass.RealPrjctCreateOrgTest"/>
       </group> <!-- regressionTest -->
       <group name="smokeTest">
-        <method signature="RealPrjctCreateOrgTest.createOrganizationTest()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@5656be13]" name="createOrganizationTest" class="ProjectImplementationInBaseClass.RealPrjctCreateOrgTest"/>
+        <method signature="RealPrjctCreateContactTest.createContact()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateContactTest@639c2c1d]" name="createContact" class="ProjectImplementationInBaseClass.RealPrjctCreateContactTest"/>
+        <method signature="RealPrjctCreateOrgTest.createOrganizationTest()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@65fb9ffc]" name="createOrganizationTest" class="ProjectImplementationInBaseClass.RealPrjctCreateOrgTest"/>
+        <method signature="RealPrjctCreateContactTest.createContact()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateContactTest@217ed35e]" name="createContact" class="ProjectImplementationInBaseClass.RealPrjctCreateContactTest"/>
+        <method signature="RealPrjctCreateOrgTest.createOrganizationTest()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@682b2fa]" name="createOrganizationTest" class="ProjectImplementationInBaseClass.RealPrjctCreateOrgTest"/>
       </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2025-03-04T17:32:08 IST" name="Default test" finished-at="2025-03-04T17:32:58 IST" duration-ms="50812">
+    <test started-at="2025-03-04T18:21:40 IST" name="TestRunner-Chrome" finished-at="2025-03-04T18:23:59 IST" duration-ms="139342">
       <class name="ProjectImplementationInBaseClass.RealPrjctCreateOrgTest">
-        <test-method is-config="true" signature="createConfigBs()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@5656be13]" started-at="2025-03-04T17:32:07 IST" name="createConfigBs" finished-at="2025-03-04T17:32:08 IST" duration-ms="503" status="PASS">
+        <test-method is-config="true" signature="createConfigBs()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@682b2fa]" started-at="2025-03-04T18:21:39 IST" name="createConfigBs" finished-at="2025-03-04T18:21:40 IST" duration-ms="500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createConfigBs -->
-        <test-method is-config="true" signature="createConfigBC()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@5656be13]" started-at="2025-03-04T17:32:08 IST" name="createConfigBC" finished-at="2025-03-04T17:32:10 IST" duration-ms="2579" status="PASS">
+        <test-method is-config="true" signature="createConfigBC(java.lang.String)[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@682b2fa]" started-at="2025-03-04T18:21:40 IST" name="createConfigBC" finished-at="2025-03-04T18:21:44 IST" duration-ms="3541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createConfigBC -->
-        <test-method is-config="true" signature="createConfigBM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@5656be13]" started-at="2025-03-04T17:32:10 IST" name="createConfigBM" finished-at="2025-03-04T17:32:14 IST" duration-ms="4333" status="PASS">
+        <test-method is-config="true" signature="createConfigBM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@682b2fa]" started-at="2025-03-04T18:21:44 IST" name="createConfigBM" finished-at="2025-03-04T18:21:53 IST" duration-ms="9190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createConfigBM -->
-        <test-method signature="createOrgWithIndustries()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@5656be13]" started-at="2025-03-04T17:32:14 IST" name="createOrgWithIndustries" finished-at="2025-03-04T17:32:26 IST" duration-ms="11915" status="PASS">
+        <test-method signature="createOrgWithIndustries()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@682b2fa]" started-at="2025-03-04T18:21:53 IST" name="createOrgWithIndustries" finished-at="2025-03-04T18:22:16 IST" duration-ms="23573" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createOrgWithIndustries -->
-        <test-method is-config="true" signature="createConfigAM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@5656be13]" started-at="2025-03-04T17:32:26 IST" name="createConfigAM" finished-at="2025-03-04T17:32:28 IST" duration-ms="1532" status="PASS">
+        <test-method is-config="true" signature="createConfigAM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@682b2fa]" started-at="2025-03-04T18:22:16 IST" name="createConfigAM" finished-at="2025-03-04T18:22:19 IST" duration-ms="2232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createConfigAM -->
-        <test-method is-config="true" signature="createConfigBM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@5656be13]" started-at="2025-03-04T17:32:28 IST" name="createConfigBM" finished-at="2025-03-04T17:32:31 IST" duration-ms="3228" status="PASS">
+        <test-method is-config="true" signature="createConfigBM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@682b2fa]" started-at="2025-03-04T18:22:19 IST" name="createConfigBM" finished-at="2025-03-04T18:22:24 IST" duration-ms="4872" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createConfigBM -->
-        <test-method signature="createOrgWithPhoneNum()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@5656be13]" started-at="2025-03-04T17:32:31 IST" name="createOrgWithPhoneNum" finished-at="2025-03-04T17:32:42 IST" duration-ms="10476" status="PASS">
+        <test-method signature="createOrgWithPhoneNum()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@682b2fa]" started-at="2025-03-04T18:22:24 IST" name="createOrgWithPhoneNum" finished-at="2025-03-04T18:22:39 IST" duration-ms="15922" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createOrgWithPhoneNum -->
-        <test-method is-config="true" signature="createConfigAM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@5656be13]" started-at="2025-03-04T17:32:42 IST" name="createConfigAM" finished-at="2025-03-04T17:32:43 IST" duration-ms="1481" status="PASS">
+        <test-method is-config="true" signature="createConfigAM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@682b2fa]" started-at="2025-03-04T18:22:39 IST" name="createConfigAM" finished-at="2025-03-04T18:22:42 IST" duration-ms="2093" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createConfigAM -->
-        <test-method is-config="true" signature="createConfigBM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@5656be13]" started-at="2025-03-04T17:32:43 IST" name="createConfigBM" finished-at="2025-03-04T17:32:46 IST" duration-ms="2919" status="PASS">
+        <test-method is-config="true" signature="createConfigBM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@682b2fa]" started-at="2025-03-04T18:22:42 IST" name="createConfigBM" finished-at="2025-03-04T18:22:46 IST" duration-ms="4918" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createConfigBM -->
-        <test-method signature="createOrganizationTest()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@5656be13]" started-at="2025-03-04T17:32:46 IST" name="createOrganizationTest" finished-at="2025-03-04T17:32:57 IST" duration-ms="10479" status="PASS">
+        <test-method signature="createOrganizationTest()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@682b2fa]" started-at="2025-03-04T18:22:46 IST" name="createOrganizationTest" finished-at="2025-03-04T18:23:03 IST" duration-ms="16045" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createOrganizationTest -->
-        <test-method is-config="true" signature="createConfigAM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@5656be13]" started-at="2025-03-04T17:32:57 IST" name="createConfigAM" finished-at="2025-03-04T17:32:58 IST" duration-ms="1532" status="PASS">
+        <test-method is-config="true" signature="createConfigAM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@682b2fa]" started-at="2025-03-04T18:23:03 IST" name="createConfigAM" finished-at="2025-03-04T18:23:05 IST" duration-ms="2030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createConfigAM -->
-        <test-method is-config="true" signature="createConfigAC()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@5656be13]" started-at="2025-03-04T17:32:58 IST" name="createConfigAC" finished-at="2025-03-04T17:32:58 IST" duration-ms="244" status="PASS">
+        <test-method is-config="true" signature="createConfigAC()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@682b2fa]" started-at="2025-03-04T18:23:05 IST" name="createConfigAC" finished-at="2025-03-04T18:23:05 IST" duration-ms="459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createConfigAC -->
-        <test-method is-config="true" signature="createConfigAS()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@5656be13]" started-at="2025-03-04T17:32:58 IST" name="createConfigAS" finished-at="2025-03-04T17:32:58 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="createConfigAS()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@682b2fa]" started-at="2025-03-04T18:24:11 IST" name="createConfigAS" finished-at="2025-03-04T18:24:11 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createConfigAS -->
       </class> <!-- ProjectImplementationInBaseClass.RealPrjctCreateOrgTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="ProjectImplementationInBaseClass.RealPrjctCreateContactTest">
+        <test-method is-config="true" signature="createConfigBC(java.lang.String)[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateContactTest@217ed35e]" started-at="2025-03-04T18:23:05 IST" name="createConfigBC" finished-at="2025-03-04T18:23:07 IST" duration-ms="2005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConfigBC -->
+        <test-method is-config="true" signature="createConfigBM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateContactTest@217ed35e]" started-at="2025-03-04T18:23:07 IST" name="createConfigBM" finished-at="2025-03-04T18:23:12 IST" duration-ms="5407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConfigBM -->
+        <test-method signature="createContact()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateContactTest@217ed35e]" started-at="2025-03-04T18:23:12 IST" name="createContact" finished-at="2025-03-04T18:23:31 IST" duration-ms="18701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method is-config="true" signature="createConfigAM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateContactTest@217ed35e]" started-at="2025-03-04T18:23:31 IST" name="createConfigAM" finished-at="2025-03-04T18:23:34 IST" duration-ms="2545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConfigAM -->
+        <test-method is-config="true" signature="createConfigBM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateContactTest@217ed35e]" started-at="2025-03-04T18:23:34 IST" name="createConfigBM" finished-at="2025-03-04T18:23:39 IST" duration-ms="5193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConfigBM -->
+        <test-method signature="createContactSupportDate()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateContactTest@217ed35e]" started-at="2025-03-04T18:23:39 IST" name="createContactSupportDate" finished-at="2025-03-04T18:23:57 IST" duration-ms="17970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactSupportDate -->
+        <test-method is-config="true" signature="createConfigAM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateContactTest@217ed35e]" started-at="2025-03-04T18:23:57 IST" name="createConfigAM" finished-at="2025-03-04T18:23:59 IST" duration-ms="2187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConfigAM -->
+        <test-method is-config="true" signature="createConfigAC()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateContactTest@217ed35e]" started-at="2025-03-04T18:23:59 IST" name="createConfigAC" finished-at="2025-03-04T18:23:59 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConfigAC -->
+      </class> <!-- ProjectImplementationInBaseClass.RealPrjctCreateContactTest -->
+    </test> <!-- TestRunner-Chrome -->
+    <test started-at="2025-03-04T18:21:40 IST" name="TestRunner-Edge" finished-at="2025-03-04T18:24:11 IST" duration-ms="151166">
+      <class name="ProjectImplementationInBaseClass.RealPrjctCreateOrgTest">
+        <test-method is-config="true" signature="createConfigBC(java.lang.String)[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@65fb9ffc]" started-at="2025-03-04T18:21:40 IST" name="createConfigBC" finished-at="2025-03-04T18:21:49 IST" duration-ms="9294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConfigBC -->
+        <test-method is-config="true" signature="createConfigBM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@65fb9ffc]" started-at="2025-03-04T18:21:49 IST" name="createConfigBM" finished-at="2025-03-04T18:21:57 IST" duration-ms="7588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConfigBM -->
+        <test-method signature="createOrgWithIndustries()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@65fb9ffc]" started-at="2025-03-04T18:21:57 IST" name="createOrgWithIndustries" finished-at="2025-03-04T18:22:18 IST" duration-ms="21259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIndustries -->
+        <test-method is-config="true" signature="createConfigAM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@65fb9ffc]" started-at="2025-03-04T18:22:18 IST" name="createConfigAM" finished-at="2025-03-04T18:22:21 IST" duration-ms="2510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConfigAM -->
+        <test-method is-config="true" signature="createConfigBM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@65fb9ffc]" started-at="2025-03-04T18:22:21 IST" name="createConfigBM" finished-at="2025-03-04T18:22:26 IST" duration-ms="5124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConfigBM -->
+        <test-method signature="createOrgWithPhoneNum()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@65fb9ffc]" started-at="2025-03-04T18:22:26 IST" name="createOrgWithPhoneNum" finished-at="2025-03-04T18:22:42 IST" duration-ms="15924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithPhoneNum -->
+        <test-method is-config="true" signature="createConfigAM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@65fb9ffc]" started-at="2025-03-04T18:22:42 IST" name="createConfigAM" finished-at="2025-03-04T18:22:45 IST" duration-ms="2745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConfigAM -->
+        <test-method is-config="true" signature="createConfigBM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@65fb9ffc]" started-at="2025-03-04T18:22:45 IST" name="createConfigBM" finished-at="2025-03-04T18:22:50 IST" duration-ms="4993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConfigBM -->
+        <test-method signature="createOrganizationTest()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@65fb9ffc]" started-at="2025-03-04T18:22:50 IST" name="createOrganizationTest" finished-at="2025-03-04T18:23:05 IST" duration-ms="15602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationTest -->
+        <test-method is-config="true" signature="createConfigAM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@65fb9ffc]" started-at="2025-03-04T18:23:05 IST" name="createConfigAM" finished-at="2025-03-04T18:23:09 IST" duration-ms="3384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConfigAM -->
+        <test-method is-config="true" signature="createConfigAC()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateOrgTest@65fb9ffc]" started-at="2025-03-04T18:23:09 IST" name="createConfigAC" finished-at="2025-03-04T18:23:14 IST" duration-ms="5263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConfigAC -->
+      </class> <!-- ProjectImplementationInBaseClass.RealPrjctCreateOrgTest -->
+      <class name="ProjectImplementationInBaseClass.RealPrjctCreateContactTest">
+        <test-method is-config="true" signature="createConfigBC(java.lang.String)[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateContactTest@639c2c1d]" started-at="2025-03-04T18:23:14 IST" name="createConfigBC" finished-at="2025-03-04T18:23:20 IST" duration-ms="5747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConfigBC -->
+        <test-method is-config="true" signature="createConfigBM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateContactTest@639c2c1d]" started-at="2025-03-04T18:23:20 IST" name="createConfigBM" finished-at="2025-03-04T18:23:26 IST" duration-ms="6008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConfigBM -->
+        <test-method signature="createContact()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateContactTest@639c2c1d]" started-at="2025-03-04T18:23:26 IST" name="createContact" finished-at="2025-03-04T18:23:43 IST" duration-ms="17273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method is-config="true" signature="createConfigAM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateContactTest@639c2c1d]" started-at="2025-03-04T18:23:43 IST" name="createConfigAM" finished-at="2025-03-04T18:23:45 IST" duration-ms="2405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConfigAM -->
+        <test-method is-config="true" signature="createConfigBM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateContactTest@639c2c1d]" started-at="2025-03-04T18:23:45 IST" name="createConfigBM" finished-at="2025-03-04T18:23:50 IST" duration-ms="5245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConfigBM -->
+        <test-method signature="createContactSupportDate()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateContactTest@639c2c1d]" started-at="2025-03-04T18:23:50 IST" name="createContactSupportDate" finished-at="2025-03-04T18:24:05 IST" duration-ms="14968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactSupportDate -->
+        <test-method is-config="true" signature="createConfigAM()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateContactTest@639c2c1d]" started-at="2025-03-04T18:24:05 IST" name="createConfigAM" finished-at="2025-03-04T18:24:08 IST" duration-ms="2443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConfigAM -->
+        <test-method is-config="true" signature="createConfigAC()[pri:0, instance:ProjectImplementationInBaseClass.RealPrjctCreateContactTest@639c2c1d]" started-at="2025-03-04T18:24:08 IST" name="createConfigAC" finished-at="2025-03-04T18:24:11 IST" duration-ms="3288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConfigAC -->
+      </class> <!-- ProjectImplementationInBaseClass.RealPrjctCreateContactTest -->
+    </test> <!-- TestRunner-Edge -->
+  </suite> <!-- Suite -->
 </testng-results>

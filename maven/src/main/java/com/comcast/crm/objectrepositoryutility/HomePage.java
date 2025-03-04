@@ -67,8 +67,9 @@ public class HomePage
 	
 	public void logout()
 	{
-		Actions acn=new Actions(driver);
-		acn.moveToElement(adminImg).perform();
+		//Actions acn=new Actions(driver);
+		//acn.moveToElement(adminImg).perform();
+		adminImg.click();
         signOutLink.click();
 	}
    
