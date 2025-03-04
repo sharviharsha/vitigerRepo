@@ -24,20 +24,20 @@
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
-			<version>4.1.2</version>
+			<version>5.2.3</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
-			<version>4.1.2</version>
+			<version>5.2.3</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>6.14.3</version>
+			<version>7.7.1</version>
 
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
@@ -60,12 +60,7 @@
 			<artifactId>extentreports</artifactId>
 			<version>5.0.9</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-opera-driver -->
-<dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-opera-driver</artifactId>
-    <version>4.4.0</version>
-</dependency>
+
 
         
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
@@ -76,6 +71,7 @@
     <scope>provided</scope>
 </dependency>
 	</dependencies>
+	
 	<profiles>
 		<profile>
 			<id>RTS</id>
@@ -95,6 +91,7 @@
 		</plugins>
 	</build>
 		</profile>
+		
 		<profile>
 			<id>sTS</id>
 			<build>
@@ -129,6 +126,7 @@
 		</plugins>
 	</build>
 		</profile>
+		
 		<profile>
 			<id>PDTS</id>
 			<build>
@@ -146,6 +144,7 @@
 		</plugins>
 	</build>
 		</profile>
+		
 		<profile>
 			<id>PCBTS</id>
 			<build>
