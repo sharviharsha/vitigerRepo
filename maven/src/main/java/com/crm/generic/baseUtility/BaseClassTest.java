@@ -39,7 +39,7 @@ public class BaseClassTest
 		
 		
 	}
-    //@Parameters("BROWSER")
+    @Parameters("BROWSER")
 	@BeforeClass(groups = {"smokeTest", "regressionTest"})
 	public void createConfigBC(String browser) throws Throwable {
 		System.out.println("==Launch the Browser== ");
